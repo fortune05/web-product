@@ -296,11 +296,267 @@ const quotes = [
     category: "success"
   },
   {
+    id: 38,
+    quote: "실패란 단순히 다시 시작할 수 있는 기회일 뿐이다. 이번에는 더 현명하게 시작하면 된다.",
+    author: "헨리 포드",
+    quoteEn: "Failure is simply the opportunity to begin again, this time more intelligently.",
+    authorEn: "Henry Ford",
+    category: "wisdom"
+  },
+  {
+    id: 39,
+    quote: "진정한 발견은 새로운 땅을 찾는 것이 아니라, 새로운 눈으로 보는 것이다.",
+    author: "마르셀 프루스트",
+    quoteEn: "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes.",
+    authorEn: "Marcel Proust",
+    category: "wisdom"
+  },
+  {
     id: 40,
     quote: "가장 아름다운 것은 눈에 보이지 않으며 오직 마음으로만 느낄 수 있다.",
     author: "헬렌 켈러",
     quoteEn: "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
     authorEn: "Helen Keller",
+    category: "life"
+  },
+  {
+    id: 41,
+    quote: "행동이 언제나 행복을 가져다주지는 않지만, 행동 없는 행복은 없다.",
+    author: "벤자민 디즈레일리",
+    quoteEn: "Action may not always bring happiness, but there is no happiness without action.",
+    authorEn: "Benjamin Disraeli",
+    category: "success"
+  },
+  {
+    id: 42,
+    quote: "교육의 목적은 지식이 아니라 행동이다.",
+    author: "허버트 스펜서",
+    quoteEn: "The great end of education is not knowledge but action.",
+    authorEn: "Herbert Spencer",
+    category: "wisdom"
+  },
+  {
+    id: 43,
+    quote: "네가 오늘 보낸 하루는 어제 죽어간 이가 그토록 바라던 내일이다.",
+    author: "소포클레스",
+    quoteEn: "The day you spent in vain today is the tomorrow that a person who died yesterday desperately wanted.",
+    authorEn: "Sophocles",
+    category: "life"
+  },
+  {
+    id: 44,
+    quote: "배우나 생각하지 않으면 어둡고, 생각하나 배우지 않으면 위태롭다.",
+    author: "공자",
+    quoteEn: "Learning without thought is labor lost; thought without learning is perilous.",
+    authorEn: "Confucius",
+    category: "wisdom"
+  },
+  {
+    id: 45,
+    quote: "어려운 일은 바로 할 수 있는 일이고, 불가능한 일은 시간이 조금 더 걸리는 일일 뿐이다.",
+    author: "조지 산타야나",
+    quoteEn: "The difficult is that which can be done immediately; the impossible that which takes a little longer.",
+    authorEn: "George Santayana",
+    category: "courage"
+  },
+  {
+    id: 46,
+    quote: "진정한 지혜는 자기가 아무것도 모른다는 것을 아는 것이다.",
+    author: "소크라테스",
+    quoteEn: "The only true wisdom is in knowing you know nothing.",
+    authorEn: "Socrates",
+    category: "wisdom"
+  },
+  {
+    id: 47,
+    quote: "가장 든든한 친구는 너 자신이며, 가장 무서운 적 또한 너 자신이다.",
+    author: "스피노자",
+    quoteEn: "The strongest man is the one who stands most alone.",
+    authorEn: "Baruch Spinoza",
+    category: "mindset"
+  },
+  {
+    id: 48,
+    quote: "인생은 속도가 아니라 방향이다.",
+    author: "괴테",
+    quoteEn: "Life is not about speed, but direction.",
+    authorEn: "Johann Wolfgang von Goethe",
+    category: "life"
+  },
+  {
+    id: 49,
+    quote: "천재는 1%의 영감과 99%의 노력으로 만들어진다.",
+    author: "토마스 에디슨",
+    quoteEn: "Genius is one percent inspiration, ninety-nine percent perspiration.",
+    authorEn: "Thomas A. Edison",
+    category: "success"
+  },
+  {
+    id: 50,
+    quote: "작은 일에 성실한 사람은 큰 일에도 성실하다.",
+    author: "성경",
+    quoteEn: "He that is faithful in that which is least is faithful also in much.",
+    authorEn: "The Bible",
+    category: "mindset"
+  },
+  {
+    id: 51,
+    quote: "매일 매일을 너의 수확물로 판단하지 말고, 네가 심은 씨앗으로 판단하라.",
+    author: "로버트 루이스 스티븐슨",
+    quoteEn: "Don't judge each day by the harvest you reap but by the seeds that you plant.",
+    authorEn: "Robert Louis Stevenson",
+    category: "life"
+  },
+  {
+    id: 52,
+    quote: "더 나은 세상을 만드는 법은 스스로가 더 좋은 사람이 되는 것이다.",
+    author: "소크라테스",
+    quoteEn: "Let him who would move the world first move himself.",
+    authorEn: "Socrates",
+    category: "wisdom"
+  },
+  {
+    id: 53,
+    quote: "당신의 태도가 당신의 고도를 결정한다.",
+    author: "지그 지글러",
+    quoteEn: "Your attitude, not your aptitude, will determine your altitude.",
+    authorEn: "Zig Ziglar",
+    category: "mindset"
+  },
+  {
+    id: 54,
+    quote: "경험이란 모든 실수에 붙이는 이름일 뿐이다.",
+    author: "오스카 와일드",
+    quoteEn: "Experience is simply the name we give our mistakes.",
+    authorEn: "Oscar Wilde",
+    category: "wisdom"
+  },
+  {
+    id: 55,
+    quote: "꿈을 이루기에 너무 늦은 나이란 없다.",
+    author: "조지 엘리엇",
+    quoteEn: "It is never too late to be what you might have been.",
+    authorEn: "George Eliot",
+    category: "life"
+  },
+  {
+    id: 56,
+    quote: "우리가 등뒤로 밀쳐둔 과거는 결국 우리 눈앞에 다시 나타난다.",
+    author: "호메로스",
+    quoteEn: "The past is never dead. It's not even past.",
+    authorEn: "Homer",
+    category: "wisdom"
+  },
+  {
+    id: 57,
+    quote: "질문을 멈추지 않는 것이 중요하다. 호기심은 그 자체로 존재 이유가 있다.",
+    author: "알베르트 아인슈타인",
+    quoteEn: "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+    authorEn: "Albert Einstein",
+    category: "wisdom"
+  },
+  {
+    id: 58,
+    quote: "장애물은 너를 멈추게 할 수 없다. 벽을 만나면 돌아서거나 포기하지 말고, 어떻게 그것을 기어오를지 생각해라.",
+    author: "마이클 조던",
+    quoteEn: "Obstacles don't have to stop you. If you run into a wall, don't turn around and give up. Figure out how to climb it.",
+    authorEn: "Michael Jordan",
+    category: "courage"
+  },
+  {
+    id: 59,
+    quote: "시간이 없다는 것은 핑계다. 시간은 언제나 충분하며, 단지 우선순위의 문제일 뿐이다.",
+    author: "세네카",
+    quoteEn: "It is not that we have so little time, but that we lose so much of it.",
+    authorEn: "Seneca",
+    category: "wisdom"
+  },
+  {
+    id: 60,
+    quote: "오늘 시작하지 않은 일은 내일 절대 끝낼 수 없다.",
+    author: "요한 볼프강 폰 괴테",
+    quoteEn: "What is not started today is never finished tomorrow.",
+    authorEn: "Johann Wolfgang von Goethe",
+    category: "success"
+  },
+  {
+    id: 61,
+    quote: "성공하는 사람이 되려 하기보다, 가치 있는 사람이 되려 노력하라.",
+    author: "알베르트 아인슈타인",
+    quoteEn: "Try not to become a man of success, but rather try to become a man of value.",
+    authorEn: "Albert Einstein",
+    category: "success"
+  },
+  {
+    id: 62,
+    quote: "지식을 얻는 유일한 소스는 경험이다.",
+    author: "알베르트 아인슈타인",
+    quoteEn: "The only source of knowledge is experience.",
+    authorEn: "Albert Einstein",
+    category: "wisdom"
+  },
+  {
+    id: 63,
+    quote: "네가 할 수 있는 한 최선을 다해라. 그러면 남들이 뭐라고 하든 신경 쓸 필요가 없다.",
+    author: "에이브러햄 링컨",
+    quoteEn: "I do the very best I know how - the very best I can; and I mean to keep doing so until the end.",
+    authorEn: "Abraham Lincoln",
+    category: "mindset"
+  },
+  {
+    id: 64,
+    quote: "삶의 큰 목적은 지식이 아니라 행동에 있다.",
+    author: "토머스 헉슬리",
+    quoteEn: "The great end of life is not knowledge but action.",
+    authorEn: "Thomas Henry Huxley",
+    category: "life"
+  },
+  {
+    id: 65,
+    quote: "당신의 모든 꿈은 이뤄질 수 있다. 그것을 쫓아갈 용기만 있다면.",
+    author: "월트 디즈니",
+    quoteEn: "All our dreams can come true, if we have the courage to pursue them.",
+    authorEn: "Walt Disney",
+    category: "courage"
+  },
+  {
+    id: 66,
+    quote: "위대한 예술가는 자신의 시대를 앞서간다.",
+    author: "빈센트 반 고흐",
+    quoteEn: "Great artists are not copied; they are ahead of their time.",
+    authorEn: "Vincent van Gogh",
+    category: "wisdom"
+  },
+  {
+    id: 67,
+    quote: "비교는 행복의 도둑이다.",
+    author: "시어도어 루스벨트",
+    quoteEn: "Comparison is the thief of joy.",
+    authorEn: "Theodore Roosevelt",
+    category: "mindset"
+  },
+  {
+    id: 68,
+    quote: "인생에서 저지를 수 있는 가장 큰 실수는 실수할까 봐 끊임없이 두려워하는 것이다.",
+    author: "엘버트 허버드",
+    quoteEn: "The greatest mistake you can make in life is to be continually fearing you will make one.",
+    authorEn: "Elbert Hubbard",
+    category: "courage"
+  },
+  {
+    id: 69,
+    quote: "조용히 앉아 있는 것보다, 한 걸음이라도 내딛는 것이 낫다.",
+    author: "속담",
+    quoteEn: "A journey of a thousand miles begins with a single step.",
+    authorEn: "Proverb",
+    category: "success"
+  },
+  {
+    id: 70,
+    quote: "네가 원하는 변화가 되어라.",
+    author: "마하트마 간디",
+    quoteEn: "Be the change that you wish to see in the world.",
+    authorEn: "Mahatma Gandhi",
     category: "life"
   }
 ];
